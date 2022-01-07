@@ -1,15 +1,16 @@
-//import react into the bundle
+//Import REACT
 import React from "react";
 import ReactDOM from "react-dom";
 
-//include bootstrap npm library into the bundle
+//Import BOOTSTRAP
 import "bootstrap";
 
-//include your index.scss file into the bundle
+//Styles
 import "../styles/index.scss";
+import "../styles/TodoList.scss";
 
-//import your own components
-import Home from "./component/home.jsx";
+//Component
+import TodoList from "./Component/TodoList.jsx";
 
-//render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+//Render the react application
+ReactDOM.render(<TodoList />, document.querySelector("#app"));

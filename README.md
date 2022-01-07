@@ -1,41 +1,32 @@
-# Hello World with React boilerplate
-<p>
-  <a href="https://gitpod.io#https://github.com/4GeeksAcademy/react-hello.git"><img src="https://raw.githubusercontent.com/4GeeksAcademy/react-hello/master/open-in-gitpod.svg?sanitize=true" />
-  </a>
-</p>
+# TODO List React and Fetch
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+> By Keili Rosales
 
-##### Download the boilerplate using git
+## Objective
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+The main idea of this exercise is to learn how to use API's and apply it to the TODO-list made earlier, so we took advantage of the same boilerplate to synchronize the task list with a real database, in this case, using the RESTful and public API made for this exercise.
 
-##### and install the npm package:
-```
-$ npm install
-```
+🔗 Here you can take a look at the [TODO-list API documentation.](http://https://assets.breatheco.de/apis/fake/todos/ "TODO-list API documentation.")
 
-## Start coding!
+The exercise is about applying asynchronous programming because the interactions from and to the server must be performed asynchronously. It was left with customizing the TODO with the Christmas theme.
 
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
+## Application
 
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
+1. Install the NPM packages (be sure to use the latest version of node): `npm install`.
+2. Run the project using: `npm run start`.
+It checks that the component is working and can add and remove tasks, as well as send and get the data in the API.
 
-## Publish your website!
+## Technologies
 
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
+- HTML
+- CSS
+- ReactJS
+- Javascript
+- API
+- Fetch-API
 
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
+## Contributions
 
-## Other features
+I'd love to get your appreciation or report on the code at https://github.com/keikeka/TODO-List-with-React-and-Fetch
 
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+Thank you very much!
